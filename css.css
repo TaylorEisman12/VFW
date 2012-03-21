@@ -1,0 +1,110 @@
+/*
+Taylor Eisman
+CSS File Project 4
+VFW 03/12
+*/
+
+	body{
+		font-family: Arial;
+		color: black;
+		background-color: silver;
+	}
+	
+	h1{
+		padding-left: 50px;
+		background-color: grey;
+		color: silver;
+	}
+
+	a{
+		margin-left: 20px;
+		font-size: 14px;
+	}
+
+	span{
+		font-size: small;
+		color: red;
+	}
+	
+	legend{
+		font-size: large;
+		font-weight: bold;
+	}
+
+	li{
+		font-size: medium;
+		text-align: left;
+	}
+	
+	form{
+		background-color: grey;
+	}
+
+
+
+/*body{font-family: Arial, Helvetica, san-serif;width: 571px;margin: auto;padding: 10px;} /*Will be used unless overwrited with another tag below*/
+/*a{text-decoration: none;} /* example a image as a link*/
+/*
+/*h{
+/*	margin: 10px 20px;
+/*}
+/*p{
+/*	color: #fff0000;
+/*	font-style: italic;
+/*	font-family: "Times New Roman"; /* Can list different fonts incase user does not the font */
+/*	font-weight: bold; /* font bold */
+/*	/* font: italic small-caps bold 12px/1.2em Arial; /* Short hand way to apply styles. */
+/*	line-height: 1.2em; /* Distance between lines 12px text rule thumb 1.2em 11px= 1.1em distance */
+/*	letter-spacing: .08em; /* Spaces letters out*/
+/*	text-align: right; /* Alligns text default is left */
+/*	text-indent: 20px; /* Indents txt either positive or negative values */
+/*	/*  border: 1px solid olive; /* Sets a border around element */
+/*	/* text-transform: capitalize; /* Sets the text to capitilized uppcase lowercase etc.. */
+/*	text-decoration: ;	/* sets decoration on the text such as underline or line through */
+
+/* Margins do not overlap in inline elements. Ex. images */
+/*}*/
+
+/*body{font-family;Arial;}
+			div{
+				width: 200px;    
+				height: 200px;
+				padding: 20px;
+				margin: 5px;  
+				border: 10px solid blue;
+				background: grey;
+			}
+			span{
+				width: 50px;
+				height: 50px;
+				padding: 20px;
+				margin: 40px;
+				border: 5px solid black;
+				outline: 5px dotted red;
+				background: orange;
+				display: block;
+				}
+			img{
+				width: 200px;    
+				height: 200px;
+				border: 5px solid black;
+				margin: 10px; 
+			}
+*/
+/*
+body{
+	font-family: Arial;
+}
+
+div{
+	background: #adb7b0;
+}
+
+li{
+	color: red;
+}
+
+h1{
+	color: #333333;
+	background: #918d8d;	
+}*/

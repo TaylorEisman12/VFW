@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Taylor Eisman 
+	HTML File for Project 4
+	VFW 03/12 -->
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Project 4" />
+		<meta name="keywords" content="Car wish list, Project 4" />
+		<meta name="robots" content="noindex, nofollow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<title>Car Wish List</title>
+		<link rel="stylesheet" type="text/css" href="css.css" media="only screen and (max-width: 485px)" />
+	</head>
+	<body>
+		<header><h1 id="test">Car Wish List</h1></header>
+		<nav>
+			<a href="#" id="clear">Clear Saved Cars</a>
+			<a href="#" id="displayLink">Display Saved Cars</a>
+			<a href="addItem.html" id="addNew" style="display:none;">Add New Car</a>
+		</nav>
+		<form action="#" method="post" id="carDetails" />
+			<fieldset id="carDetailFieldset">
+			<legend>Car Details</legend>
+			<span>* fields are required.</span>
+			<ul id="errors"></ul>
+			<ul id="questions">
+				<li id="select"><label for="year">*Year:</label></li>
+				<li><label for="make">*Make: </label><input type="text" id="make" /></li>
+				<li><label for="model">*Model: </label><input type="text" id="model" /></li>
+				<li><label for="color">Color: </label><input type="color" id="color" /></li>
+				<li><label for="transmission">Transmission: </label>
+					<ul class="checkbox">
+						<li><input type="radio" id="automatic" value="Automatic" name="transmission" /><label for="automatic">Automatic</label></li>
+						<li><input type="radio" id="manuel" value="Manuel" name="transmission" /><label for="manuel">Manuel</label></li>
+					</ul>
+				<li><input type="checkbox" id="leather" value="yes" class="checkbox"  /><label for="leather">Leather?</label></li>
+				<li><label for="horsepower">Horsepower (120-800)<br /></label<input type="range" id="horsepower" min="120" max="800" value="450" step="10" /></li>
+				<li><label for="date">Date Added:</label><input type="date" id="date" /></label></li>
+				<li><label for="notes">Notes:<br /></label><textarea id="notes"></textarea></li>
+			</ul>
+			</fieldset>
+			<input type="submit" value="Save Car" id="submit" />
+		</form>
+		<script src="jsmain.js"></script>
+	</body>
+</html>
